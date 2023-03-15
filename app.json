@@ -5,6 +5,27 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d4a3e1e0-c9f4-4f49-ab33-57659d1ef6a7"
+      }
+    }
   }
 }
