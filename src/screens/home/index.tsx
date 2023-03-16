@@ -87,6 +87,7 @@ export function Home() {
                     showsVerticalScrollIndicator={false}
                     contentContainerStyle={{
                         padding: 35,
+                        paddingTop: 0,
                         paddingBottom: 100,
                     }}
                     onEndReached={()=> loadMoreData()}
@@ -104,11 +105,8 @@ export function Home() {
                     <Text style={styles.noResultText}>
                     Não há filmes para exibir.
                     </Text>
-                    )
-                    )
-                    )}
-                    />
-                    </View>
-                    </View>
-                    );
-                    }
+                )))}
+                />
+            </View>
+        </View>
+    );}

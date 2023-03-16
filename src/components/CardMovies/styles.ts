@@ -5,6 +5,9 @@ export const styles = StyleSheet.create({
         width: 100,
         height: 145,
         borderRadius: 15,
+        borderWidth: 2,
+        borderColor: '#fff'
+
 
     },
     cardMovies:{
